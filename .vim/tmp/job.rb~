@@ -1,0 +1,3 @@
+class Scan::Job < ActiveRecord::Base
+  # attr_accessible :title, :body
+end

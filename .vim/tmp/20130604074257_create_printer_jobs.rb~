@@ -1,0 +1,18 @@
+class CreatePrinterJobs < ActiveRecord::Migration
+  def change
+    create_table :printer_jobs do |t|
+      t.string :job_id
+      t.string :state
+      t.string :state_reason
+      t.string :scan_state
+      t.string :scan_state_reason
+      t.string :send_state
+      t.string :send_state_reason
+      t.string :ocr_state
+      t.string :ocr_state_reason
+      t.string :get_scanned_image_state
+      t.string :get_scanned_image_state_reason
+      t.timestamps
+    end
+  end
+end

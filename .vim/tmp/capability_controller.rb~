@@ -1,0 +1,17 @@
+class Scanner::CapabilityController < ApplicationController
+  def index
+    fileFormat = [ "pdf" ]
+    originalSide = [ "one_sided","top_to_top","top_to_bottom" ]
+    scanColor = [ "auto_color" ]
+    scanResolution = [ "300dpi" ]
+    jobSetting = {
+      "fileFormat" => fileFormat,
+      "originalSide" => originalSide,
+      "scanColor" => scanColor,
+      "scanResolution" => scanResolution
+    }
+    res = { "jobSetting" => jobSetting }
+
+    render :json => res
+  end
+end

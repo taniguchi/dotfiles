@@ -1,0 +1,3 @@
+#/bin/bash
+
+rsync -acv --exclude-from=pattern-file -e "ssh -i /Users/admin/.ssh/cinf_rsa" /Users/admin/Dropbox/rails/Isdk dragon@10.236.19.125:~/rails/

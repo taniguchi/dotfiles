@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#curl --dump-header - http://10.236.19.125:8080/rws/service/scanner/job -X POST -d "user[name]=postman" 
+curl -H "Content-type: application/json" --dump-header - http://localhost:3000/rws/service/scanner/job -X POST -d '{"validation":"false"}'
+#curl --dump-header - http://localhost:3000/rws/service/scanner/job/20130607094024 -X GET
+#curl -H "Content-type: application/json" http://localhost:3000/rws/service/scanner/job/20130607094024 -X PUT -d '{"jobState":"canceled"}'
+#curl http://localhost:3000/rws/service/scanner/job/20130531113344 -X DELETE
+#curl http://10.236.19.125:8080/rws/service/scanner/job/20130530045653 -X DELETE
+
+
+#curl --dump-header - http://localhost:3000/rws/service/printer/jobs -X POST -d "user[name]=postman" 

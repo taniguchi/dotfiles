@@ -1,9 +1,9 @@
 dotfiles
 ========
 
-*My dotfiles for Vim*
+**My dotfiles for Vim**
 
-How to use
+*How to use*
 
 * $ git clone https://github.com/taniguchi/dotfiles.git
 

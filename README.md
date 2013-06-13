@@ -18,7 +18,10 @@ dotfiles
 * $ git clone https://github.com/Shougo/vimproc ~/.vim/bundle/vimproc
 
 * $ vim  
-`:NeoBundleInstall`
+`:NeoBundleInstall`  
+
+Please edit "backupdir"  
+* $ vi ~/.vimrc  
 
 *Reference*
 * http://d.hatena.ne.jp/oovu70/20120324/p1
